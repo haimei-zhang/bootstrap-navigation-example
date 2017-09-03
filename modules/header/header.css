@@ -1,0 +1,94 @@
+.body__background {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 224px;
+  background: url("../header/img/bg.png") repeat-x;
+  opacity: 0.3;
+  top: 40px;
+}
+
+/* links */
+
+.page__header__links {
+  background: #FFFFFF;
+  height: 40px;
+  text-align: right;
+  line-height: 40px;
+}
+
+.page__header__links a {
+  display: inline-block;
+  background: transparent;
+  text-decoration: none;
+  padding: 0 4px;
+  margin-left: 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.page__header__links a:hover {
+  text-decoration: none;
+}
+
+/* brand */
+.page__header__brand {
+  height: 80px;
+}
+
+.page__header__brand-content {
+  position: relative;
+  max-width: 100%;
+}
+.page__header__brand__contact {
+  text-align: right;
+  padding: 20px;
+}
+
+.page__header__brand__contact__info {
+  font-size: 16px;
+}
+
+.page__header__brand-content__logo {
+  position: absolute;
+  top: -20px;
+  left: 32px;
+  border: 2px solid #0f90a3;
+  color: #0f90a3;
+  font-size: 60px;
+}
+
+.page__header__brand__contact__number {
+  font-size: 18px;
+  color: #0f90a3;
+  font-weight: bold;
+  padding: 0 4px;
+}
+
+.page__header__brand-content__tag-line {
+  position: absolute;
+  top: 8px;
+  left: 172px;
+}
+
+@media (max-width: 768px) {
+  .page__header__brand {
+    height: 60px;
+  }
+  .page__header__brand-content__logo {
+    transform: scale(0.8);
+    left: 4px;
+    top: -12px;
+  }
+  .page__header__brand-content__tag-line {
+    transform: scale(0.8);
+    left: 116px;
+    top: 20px;
+  }
+
+  .page__header__brand__contact {
+    padding: 8px;
+  }
+}
+
+/*search-box*/
